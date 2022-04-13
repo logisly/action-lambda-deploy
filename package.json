@@ -1,0 +1,28 @@
+{
+  "name": "action-lambda-deploy-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logisly/action-lambda-deploy-go.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logisly/action-lambda-deploy-go/issues"
+  },
+  "homepage": "https://github.com/logisly/action-lambda-deploy-go#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.1",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.2.0",
+    "rollup": "^2.70.1"
+  }
+}

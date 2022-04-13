@@ -1,0 +1,6 @@
+name: "Go Lambda Deploy Action"
+description: "Deploy Go code to AWS Lambda"
+inputs:
+runs:
+  using: "node16"
+  main: "index.js"
