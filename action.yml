@@ -1,6 +1,9 @@
 name: "Go Lambda Deploy Action"
 description: "Deploy Go code to AWS Lambda"
 inputs:
+  function_name:
+    description: 'The name of the lambda function'
+    required: false
 runs:
   using: "node16"
   main: "index.js"
